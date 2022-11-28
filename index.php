@@ -36,3 +36,7 @@ $hotels = [
         'distance_to_center' => 50
     ],
 ];
+
+foreach ($hotels as $hotel) {
+    echo "$hotel[name]: $hotel[vote] stars.<br>Distance to center: $hotel[distance_to_center]Km<br><br>";
+}
